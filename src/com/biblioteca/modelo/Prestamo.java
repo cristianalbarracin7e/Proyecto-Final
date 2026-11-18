@@ -17,7 +17,7 @@ public class Prestamo {
 
     public String getInfo() {
         return "Préstamo: " + fecha + " | Lector: " + lector + " | Recurso: " + recurso.getTitulo() + 
-               " | Bibliotecario: " + bibliotecario.getNombre() + " | Nota: " + observacion;
+        " | Bibliotecario: " + bibliotecario.getNombre() + " | Nota: " + observacion;
     }
 
     public Recurso getRecurso() { return recurso; }
